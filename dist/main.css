@@ -1,0 +1,100 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.heading-text {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.image {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* bottom, image */
+    url(image.jpg);
+    height: 100%;
+    background-size: contain;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text {
+    color: #fff;
+    border-radius: 10px;
+    margin: auto;
+    width: 800px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main-text {
+    width: 60%;
+    text-align: center;
+    margin: 30px auto;
+    line-height: 29px;
+}
+
+.tabs {
+    list-style: none;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.tab-item {
+    display: inline-block;
+    background-color: #eee;
+    border: 1px solid rgb(179, 179, 179);
+    height: 35px;
+    width: 120px;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tab-item:hover {
+    cursor: pointer;
+}
+
+.tabs-container {
+    background-color: rgb(156, 156, 156);
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.tab-active {
+    background-color: rgb(192, 192, 192);
+    color: #fff;
+}
+
+.tabs-content {
+    color: #fff;
+    background-color: rgb(156, 156, 156);
+    border: 0;
+    border-radius: 5px;
+    width: 520px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.tabs-section {
+    margin-bottom: 40px;
+}
